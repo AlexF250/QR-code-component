@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: lightgray;
+}
+.container{
+    width: 310px;
+    border-radius: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+img{
+    height: 50%;
+    width: 90%;
+    object-fit: contain;
+    margin: 15px;
+    border-radius: 5%;
+}
+.container-title,
+.container-text{
+    margin: 15px 15px 0;
+    text-align: center;
+}
+.container-text{
+    margin-bottom: 40px;
+}
+.container-title{
+    font-weight:  Bold 700;
+}
